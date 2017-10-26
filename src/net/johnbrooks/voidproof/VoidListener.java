@@ -16,6 +16,7 @@ public class VoidListener implements Listener
             event.setCancelled(true);
             event.setDamage(0d);
             event.getEntity().teleport(VoidProof.getPlugin().getTransportTo());
+            event.getEntity().setFallDistance(0f);
         }
     }
 }

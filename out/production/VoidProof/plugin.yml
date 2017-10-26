@@ -1,0 +1,6 @@
+name: VoidProof
+version: 1.0.0
+author: WiseHollow
+main: net.johnbrooks.voidproof.VoidProof
+
+soft-depend: [ Multiverse-Core ]

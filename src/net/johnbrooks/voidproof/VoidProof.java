@@ -26,6 +26,7 @@ public class VoidProof extends JavaPlugin
         plugin = this;
         saveDefaultConfig();
         readConfiguration();
+        getServer().getPluginManager().registerEvents(new VoidListener(), this);
         getLogger().info(getDescription().getName() + " is now enabled.");
     }
 
